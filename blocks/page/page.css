@@ -1,7 +1,30 @@
 .page {  
   margin: auto;
-  margin-top: 28px;
   max-width: 1280px;
-  margin-left: 48px;
-  margin-right: 48px;
+  
+  font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    padding-top: 28px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+  .page {
+    padding-top: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

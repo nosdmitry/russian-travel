@@ -2,5 +2,13 @@
   display: inline-block;
   width: 176px;
   height: 52px;
-  background-image: url(../../../images/logo.svg);
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
 }
