@@ -2,5 +2,6 @@
   margin: auto;
   margin-top: 28px;
   max-width: 1280px;
-  border: 1px solid red;
+  margin-left: 48px;
+  margin-right: 48px;
 }
