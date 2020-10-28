@@ -1,0 +1,12 @@
+.place {
+  margin: auto;
+  padding: auto;
+  max-width: 984px;
+  border: 1px solid green;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(484px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+  justify-content: center;
+
+}
