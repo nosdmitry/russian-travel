@@ -4,6 +4,7 @@
 	color: white;
 	font-weight: 900;
 	max-width: 720px;
+	min-width: 288px;
 	text-align: center;
 }
 
@@ -17,14 +18,21 @@
 @media screen and (min-width: 425px) and (max-width: 1024px) {
   .lead__title {
 		line-height: 1;
-		width: 100%;
-		font-size: 100%;
+		font-size: 96px;
   }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	.lead__title {
+		line-height: 1;
+		font-size: 70px;
+	}
 }
 
 @media screen and (max-width: 425px) {
   .lead__title {
 		line-height: 1;
 		font-size: 40px;
+		width: 100%;
   }
 }
