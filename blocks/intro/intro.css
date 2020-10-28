@@ -1,0 +1,15 @@
+.intro {
+  margin: auto;
+  margin-top: 92px;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin-top: 64px;
+  }
+}
