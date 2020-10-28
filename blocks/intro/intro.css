@@ -8,6 +8,12 @@
   grid-template-columns: 1fr;
 }
 
+@media screen and (max-width: 768px) {
+  .intro{
+    margin-top: 88px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .intro {
     margin-top: 64px;
