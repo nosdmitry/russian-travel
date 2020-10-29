@@ -1,10 +1,10 @@
 .place__website {
   grid-row: span 1;
   /* border: 1px solid red; */
-  align-self: flex-end;
+  align-self: end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   .place__website {
     display: none;
   }

@@ -1,6 +1,10 @@
 .place__image {
   width: 100%;
-  /* max-width: 460px; */
+  max-width: 460px;
+}
 
-  grid-row: span 2;
+@media screen and (max-width: 700px) {
+  .place__image {
+    max-width: 100%;
+  }
 }
