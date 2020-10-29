@@ -3,10 +3,9 @@
   padding: auto;
   margin-bottom: 80px;
   max-width: 984px;
-  border: 1px solid green;
 
   display: grid;
-  grid-gap: 48px 1vw;
+  grid-gap: 48px 40px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
   justify-content: center;
