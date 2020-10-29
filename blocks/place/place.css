@@ -1,12 +1,17 @@
 .place {
   margin: auto;
   padding: auto;
+  margin-bottom: 80px;
   max-width: 984px;
   border: 1px solid green;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(484px, 1fr));
+  grid-gap: 40px 48px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
   justify-content: center;
+}
 
+.place:last-of-type {
+  margin-bottom: 0;
 }
