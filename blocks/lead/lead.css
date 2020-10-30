@@ -16,7 +16,7 @@
 	}
 }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
 	.lead {
 		max-width: 928px;
 	}
@@ -25,5 +25,6 @@
 @media (min-width: 1280px) {
 	.lead {
 		padding-top: 76px;
+		max-width: 984px;
 	}
 }

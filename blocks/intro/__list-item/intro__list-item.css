@@ -4,5 +4,6 @@
   list-style: none;
   color: #fff;
   font-size: 12px;
+  line-height: calc(18 / 12);
   font-weight: bold;
 }

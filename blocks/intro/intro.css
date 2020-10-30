@@ -1,21 +1,27 @@
 .intro {
-  margin: auto;
-  margin-top: 92px;
+  margin: 0 auto;
+  padding: 64px 16px 0 16px;
   max-width: 984px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
+  justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .intro{
-    margin-top: 88px;
+@media (min-width: 768px) {
+  .intro {
+    padding: 92px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (min-width: 1024px) {
   .intro {
-    margin-top: 64px;
+    padding: 96px 24px 0 28px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    padding-left: 0;
   }
 }
