@@ -4,15 +4,3 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
-
-@media screen and (min-width: 425px) {
-  .page {
-    padding-top: 28px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .page {
-    padding-top: 16px;
-  }
-}

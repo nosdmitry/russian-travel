@@ -1,21 +1,10 @@
 .lead {
-	margin: auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 48px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 56px;
-	max-width: 984px;
+	min-width: 320px;
+	-webkit-font-smoothing: antialiased;
 }
-
-@media screen and (max-width: 1024px) {
-	.lead {
-			max-width: 928px;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.lead {
-		margin-top: 49px;
-	}
-}
-
