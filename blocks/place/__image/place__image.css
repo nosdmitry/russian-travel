@@ -14,7 +14,6 @@
 @media (min-width: 768px) {
   .place__image {
     padding-bottom: 0;
-    max-width: calc(319vw / 720 * 100);
     order: 3;
   }
 }

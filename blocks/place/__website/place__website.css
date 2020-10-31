@@ -1,15 +1,15 @@
 .place__website {
   display: none;
-  border: 1px solid red;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   .place__website {
-    display: block;
+    margin-right: 12px;
+    box-sizing: border-box;
+    display: inline-block;
     align-self: flex-end;
     order: 2;
     margin-bottom: 48px;
-    min-width: calc(330vw / 720 * 100);
-
   }
 }
