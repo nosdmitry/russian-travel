@@ -1,9 +1,8 @@
 .place__image {
   width: 100%;
-  object-fit: cover;
-  object-position: center;
-  padding-bottom: 32px;
-  /* max-width: 460px; */
+  object-fit: contain;
+  object-position: top;
+  padding-bottom: 29px;
 }
 
 /* @media screen and (max-width: 700px) {
@@ -11,3 +10,11 @@
     max-width: 100%;
   }
 } */
+
+@media (min-width: 768px) {
+  .place__image {
+    padding-bottom: 0;
+    max-width: calc(319vw / 720 * 100);
+    order: 3;
+  }
+}

@@ -1,11 +1,15 @@
 .place__website {
-  grid-row: span 1;
-  /* border: 1px solid red; */
-  align-self: end;
+  display: none;
+  border: 1px solid red;
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 768px) {
   .place__website {
-    display: none;
+    display: block;
+    align-self: flex-end;
+    order: 2;
+    margin-bottom: 48px;
+    min-width: calc(330vw / 720 * 100);
+
   }
 }

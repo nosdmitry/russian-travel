@@ -1,0 +1,9 @@
+/* .place__texts {
+} */
+
+@media (min-width: 768px) {
+  .place__texts {
+    max-width: calc(330vw / 720 * 100);
+    order: 4;
+  }
+}
