@@ -41,3 +41,9 @@
 @import url(../blocks/place/__texts/place__texts.css);
 
 @import url(../blocks/place-spaces/place-spaces.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
