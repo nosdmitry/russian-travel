@@ -1,5 +1,11 @@
 .places {
-  margin: auto;
-  margin-top: 92px;
+  margin: 0 auto;
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }

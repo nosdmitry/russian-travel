@@ -1,18 +1,15 @@
 .place__title {
   margin: 0;
-  padding: 0;
-  width: 100%;
-  grid-row: span 1;
-  grid-column: span 1;
+  padding: 0 16px 29px 16px;
 
   color: #fff;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.12;
+  font-size: 32px;
+  line-height: calc(35 / 32);
   /* border: 1px solid wheat; */
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;
@@ -23,5 +20,5 @@
   .place__title {
     font-size: 32px;
   }
-}
+} */
 

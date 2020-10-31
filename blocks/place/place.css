@@ -1,17 +1,15 @@
 .place {
-  margin: auto;
-  padding: auto;
-  margin-bottom: 80px;
-  max-width: 984px;
-
-  display: grid;
-  column-gap: 1vw;
-  row-gap: 41px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 49px;
+  box-sizing: border-box;
 }
 
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+
+/* 
 .place:last-of-type {
   margin-bottom: 0;
 }
@@ -20,4 +18,4 @@
   .place {
     grid-template-columns: auto;
   }
-}
+} */
