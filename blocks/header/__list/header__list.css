@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   padding-right: 18px;
+
 }
+
 .header__list:last-of-type {
   padding-right: 0;
 }
