@@ -2,9 +2,9 @@
 @import url(../fonts/inter.css);
 @import url(../blocks/body/body.css);
 
+@import url(../blocks/link-transition/link-transition.css);
+
 @import url(../blocks/page/page.css);
-/* @import url(../blocks/page/__padding/page__pading.css);
-@import url(../blocks/page/__padding/_zero/page__padding_zero.css); */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
