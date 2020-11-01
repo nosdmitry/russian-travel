@@ -6,7 +6,7 @@
 
 @media (min-width: 1024px) {
   .place-spaces {
-    max-width: calc(440vw / 1024 * 100) ;
+    max-width: calc(440vw / 1024 * 100);
   }
 }
 

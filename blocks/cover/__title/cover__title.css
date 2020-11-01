@@ -7,13 +7,12 @@
 
   display: block;
   box-sizing: border-box;
-  padding: 0;
   width: 288px;
   text-align: center;
   color: #fff;
   font-size: 32px;
   line-height: calc(35 / 32);
-  font-weight: 900; 
+  font-weight: 900;
   z-index: 5;
 }
 

@@ -26,19 +26,6 @@
 
 @media (min-width: 1280px) {
   .photo-grid {
-    gap: 16px;
+    gap: 15px;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .photo-grid {
-    margin-top: 88px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .photo-grid {
-    margin-top: 64px;
-    gap: 12px;
-  }
-} */
