@@ -1,0 +1,23 @@
+.footer {
+  margin: 64px auto 24px auto;
+  padding: 0 16px;
+  max-width: 1184px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    padding: 0 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 0 48px;
+  }
+}
