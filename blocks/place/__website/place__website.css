@@ -1,15 +1,12 @@
 .place__website {
   display: none;
-  width: 100%;
 }
 
 @media (min-width: 768px) {
   .place__website {
-    margin-right: 12px;
-    box-sizing: border-box;
-    display: inline-block;
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
     order: 2;
-    margin-bottom: 48px;
   }
 }

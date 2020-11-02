@@ -1,0 +1,25 @@
+.place {
+  margin: 0 auto;
+  padding-bottom: 52px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .place {
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    padding-bottom: 80px;
+  }
+}
