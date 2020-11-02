@@ -3,18 +3,12 @@
   margin-top: 69px;
   width: 100%;
   max-width: 1184px;
-  min-height: 200px;
   background-image: url(../../images/cover-trains.jpg);
-  /* padding-bottom: 63%; */
-  /* background-size: contain;
+  padding-bottom: 63%;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative; */
   position: relative;
-  background-size: 100%;
-  background-position: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 50%;
 }
 
 .cover::before {
