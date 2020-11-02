@@ -5,9 +5,8 @@
 @media (min-width: 768px) {
   .place__website {
     display: flex;
+    justify-content: flex-end;
     flex-flow: column nowrap;
-    
-    border: 1px solid blue;
     order: 2;
   }
 }

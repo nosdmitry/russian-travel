@@ -2,5 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  
+  color: #fff;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-decoration: underline;
 }
