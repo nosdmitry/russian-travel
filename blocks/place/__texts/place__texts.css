@@ -1,5 +1,11 @@
+.place__texts {
+  border: 1px solid green;
+  padding: 0 16px;
+}
+
 @media (min-width: 768px) {
   .place__texts {
+    padding: 0;
     order: 4;
   }
 }
