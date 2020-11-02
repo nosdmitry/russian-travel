@@ -4,7 +4,7 @@
   margin-bottom: 49px;
   display: grid;
   grid-template-columns: auto;
-  row-gap: 32px;
+  row-gap: 33px;
 }
 .place:last-of-type {
   margin-bottom: 0;
@@ -13,22 +13,23 @@
 @media (min-width: 768px) {
   .place {
     margin-bottom: 73px;
-    grid-template-columns: 46% auto;
+    grid-template-columns: calc(46% + 9px) auto;
     grid-template-rows: auto auto;
-    row-gap: 48px;
-    column-gap: 28px;
+    row-gap: 47px;
+    column-gap: 29px;
   }
 }
 
 @media (min-width: 1024px) {
   .place {
-    margin-bottom: 80px;
+    margin-bottom: 87px;
     column-gap: 32px;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
+    margin-bottom: 80px;
     column-gap: 40px;
   }
 }
