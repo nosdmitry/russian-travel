@@ -1,5 +1,5 @@
 .cover {
-  margin: 0 auto;
+  margin: 66px auto 0 auto;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   max-width: 1198px;
@@ -15,10 +15,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: blue;
+  background-color: #2a2c2f;
   opacity: .3;
 
-  transition: opacity linear .3s;
+  transition: opacity linear .2s;
 }
 
 .cover:hover::before {
