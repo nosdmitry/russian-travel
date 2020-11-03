@@ -1,25 +1,6 @@
-/* .cover__subtitle {
+.cover__subtitle {
   padding: 0;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  margin: 19px -144px 0 0;
-  
-  width: 288px;
-  text-align: center;
-  color: #fff;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  z-index: 5;
+  margin: 0;
+  border: 1px solid green;
 }
-
-@media (min-width: 768px) {
-  .cover__subtitle {
-    width: 360px;
-    margin: 57px -193px 0 0;
-    font-size: 18px;
-    line-height: calc(22 / 18);
-  }
-} */
-
 
