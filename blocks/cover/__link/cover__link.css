@@ -1,12 +1,12 @@
 .cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0;
   padding: 0;
-  width: 50%;
-
-  border: 1px solid tomato;
-}
-
-.test_link {
-  display: block;
-
-  border: 3px solid yellow;
+  width: 100%;
+  position: absolute;
+  height: 100%;
 }

@@ -1,23 +1,9 @@
-/* .cover__title {
-  padding: 0;
-  border: 1px solid red;
-
-  display: block;
-  box-sizing: border-box;
+.cover__title {
+  margin: 0;
   max-width: 288px;
-  text-align: center;
-  color: #fff;
-  font-size: 32px;
-  line-height: calc(35 / 32);
-  font-weight: 900;
-  z-index: 5;
-}
+  
+  border: 1px solid blue;
+  color: white;
+  font-weight: bold;
 
-@media (min-width: 768px) {
-  .cover__title {
-    max-width: 550px;
-    font-size: 72px;
-    line-height: calc(76 / 72);
-    
-  }
-} */
+}

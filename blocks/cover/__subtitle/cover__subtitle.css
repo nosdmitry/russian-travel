@@ -1,7 +1,7 @@
 .cover__subtitle {
   padding: 0;
   margin: 0;
-
-  border: 1px solid green;
+  border: 1px solid blue;
+  max-width: 288px;
 }
 
