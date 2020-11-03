@@ -1,6 +1,12 @@
 .cover__link {
   padding: 0;
   width: 50%;
-  height: 100%;
 
+  border: 1px solid tomato;
+}
+
+.test_link {
+  display: block;
+
+  border: 3px solid yellow;
 }

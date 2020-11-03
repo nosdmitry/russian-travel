@@ -1,0 +1,7 @@
+.cover__overlay {
+  background-image: url(../../../images/__overlay.png);
+  border: 1px solid green;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
