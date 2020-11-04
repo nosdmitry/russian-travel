@@ -26,7 +26,11 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead__image.svg" alt="Путешествие по России" class="lead__image">
+
+        <figure class="lead__image-conteiner">
+          <img src="./images/lead__image.svg" alt="Путешествие по России" class="lead__image">
+        </figure>
+        
         <p class="lead__caption">Ваша полка &mdash; верхняя</p>
       </section>
 
@@ -45,11 +49,16 @@
           достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-item">Часовых поясов 11</li>
-          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-          <li class="intro__list-item">Природных заповедников 105</li>
-          <li class="intro__list-item">Аэропортов 241</li>
+          <li class="intro__list-item">Часовых поясов 
+            <span class="intro__span-item">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 
+            <span class="intro__span-item">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 
+            <span class="intro__span-item">16</span></li>
+          <li class="intro__list-item">Природных заповедников 
+            <span class="intro__span-item">105</span></li>
+          <li class="intro__list-item">Аэропортов 
+            <span class="intro__span-item">241</span></li>
         </ul>
       </section>
 
@@ -70,7 +79,7 @@
 
       <section class="places">
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image">
 
@@ -95,9 +104,9 @@
               стального, прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image">
 
@@ -122,9 +131,9 @@
               начинает сбываться с билетом в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img src="./images/place-altai.jpg" alt="Алтай" class="place__image">
 
@@ -147,9 +156,9 @@
               равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image">
 
@@ -172,9 +181,9 @@
               <!-- Текст - заглужка для переноса -->
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image">
 
@@ -195,7 +204,7 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
 
       </section>
 
@@ -203,7 +212,7 @@
       <section class="cover">
         
 
-        <a class="cover__link" href="#">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>  
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе и iframes &mdash; 

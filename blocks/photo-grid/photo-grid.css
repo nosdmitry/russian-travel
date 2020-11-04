@@ -5,7 +5,7 @@
   /* max-width: 1184px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
-  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
   gap: 12px;
   justify-content: center;
 }

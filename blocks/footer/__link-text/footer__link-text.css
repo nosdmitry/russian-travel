@@ -3,6 +3,11 @@
   line-height: 1;
   color: #fff;
   text-decoration: none;
+  transition: opacity .2s linear;
+}
+
+.footer__link-text:hover {
+  opacity: .8;
 }
 
 @media (min-width: 768px) {
