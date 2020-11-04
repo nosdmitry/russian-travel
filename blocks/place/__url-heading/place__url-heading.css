@@ -12,6 +12,6 @@
 
 @media (min-width: 1024px) {
   .place__url-heading {
-    line-height: calc(20 / 12)
+    line-height: calc(20 / 12);
   }
 }
