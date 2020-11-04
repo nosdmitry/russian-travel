@@ -11,3 +11,9 @@
   position: absolute;
   height: 100%;
 }
+
+@media (min-width: 1280px) {
+  .cover__link {
+    max-height: 740px;
+  }
+}

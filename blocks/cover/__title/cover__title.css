@@ -10,3 +10,12 @@
   font-weight: 900;
 
 }
+
+@media (min-width: 768px) {
+  .cover__title {
+    margin-bottom: 32px;
+    max-width: 560px;
+    font-size: 72px;
+    line-height: calc(76 / 72);
+  }
+}
